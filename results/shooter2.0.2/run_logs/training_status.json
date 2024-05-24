@@ -1,0 +1,29 @@
+{
+    "OMG": {
+        "checkpoints": [
+            {
+                "steps": 243563,
+                "file_path": "results\\shooter2.0.2\\OMG\\OMG-243563.onnx",
+                "reward": null,
+                "creation_time": 1712783228.6505365,
+                "auxillary_file_paths": [
+                    "results\\shooter2.0.2\\OMG\\OMG-243563.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 243563,
+            "file_path": "results\\shooter2.0.2\\OMG.onnx",
+            "reward": null,
+            "creation_time": 1712783228.6505365,
+            "auxillary_file_paths": [
+                "results\\shooter2.0.2\\OMG\\OMG-243563.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.2.2+cpu"
+    }
+}

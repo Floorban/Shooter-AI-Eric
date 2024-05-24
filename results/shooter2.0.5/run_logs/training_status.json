@@ -1,0 +1,65 @@
+{
+    "OMG": {
+        "checkpoints": [
+            {
+                "steps": 499982,
+                "file_path": "results\\shooter2.0.5\\OMG\\OMG-499982.onnx",
+                "reward": 9.999990463256836,
+                "creation_time": 1712788031.6189418,
+                "auxillary_file_paths": [
+                    "results\\shooter2.0.5\\OMG\\OMG-499982.pt"
+                ]
+            },
+            {
+                "steps": 999997,
+                "file_path": "results\\shooter2.0.5\\OMG\\OMG-999997.onnx",
+                "reward": 9.999996821085611,
+                "creation_time": 1712789220.5122612,
+                "auxillary_file_paths": [
+                    "results\\shooter2.0.5\\OMG\\OMG-999997.pt"
+                ]
+            },
+            {
+                "steps": 1499990,
+                "file_path": "results\\shooter2.0.5\\OMG\\OMG-1499990.onnx",
+                "reward": 9.999979972839355,
+                "creation_time": 1712790397.0302844,
+                "auxillary_file_paths": [
+                    "results\\shooter2.0.5\\OMG\\OMG-1499990.pt"
+                ]
+            },
+            {
+                "steps": 1999962,
+                "file_path": "results\\shooter2.0.5\\OMG\\OMG-1999962.onnx",
+                "reward": 9.999980231628797,
+                "creation_time": 1712791604.7034843,
+                "auxillary_file_paths": [
+                    "results\\shooter2.0.5\\OMG\\OMG-1999962.pt"
+                ]
+            },
+            {
+                "steps": 2172373,
+                "file_path": "results\\shooter2.0.5\\OMG\\OMG-2172373.onnx",
+                "reward": null,
+                "creation_time": 1712791995.2020109,
+                "auxillary_file_paths": [
+                    "results\\shooter2.0.5\\OMG\\OMG-2172373.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2172373,
+            "file_path": "results\\shooter2.0.5\\OMG.onnx",
+            "reward": null,
+            "creation_time": 1712791995.2020109,
+            "auxillary_file_paths": [
+                "results\\shooter2.0.5\\OMG\\OMG-2172373.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.2.2+cpu"
+    }
+}

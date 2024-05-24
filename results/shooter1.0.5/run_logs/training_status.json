@@ -1,0 +1,47 @@
+{
+    "OMG": {
+        "checkpoints": [
+            {
+                "steps": 499995,
+                "file_path": "results\\shooter1.0.5\\OMG\\OMG-499995.onnx",
+                "reward": 3.531272598152811,
+                "creation_time": 1712778432.8261244,
+                "auxillary_file_paths": [
+                    "results\\shooter1.0.5\\OMG\\OMG-499995.pt"
+                ]
+            },
+            {
+                "steps": 500037,
+                "file_path": "results\\shooter1.0.5\\OMG\\OMG-500037.onnx",
+                "reward": 3.5524998739627853,
+                "creation_time": 1712778432.860261,
+                "auxillary_file_paths": [
+                    "results\\shooter1.0.5\\OMG\\OMG-500037.pt"
+                ]
+            },
+            {
+                "steps": 500037,
+                "file_path": "results\\shooter1.0.5\\OMG\\OMG-500037.onnx",
+                "reward": null,
+                "creation_time": 1712778855.0747333,
+                "auxillary_file_paths": [
+                    "results\\shooter1.0.5\\OMG\\OMG-500037.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500037,
+            "file_path": "results\\shooter1.0.5\\OMG.onnx",
+            "reward": null,
+            "creation_time": 1712778855.0747333,
+            "auxillary_file_paths": [
+                "results\\shooter1.0.5\\OMG\\OMG-500037.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.2.2+cpu"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "OMG": {
+        "checkpoints": [
+            {
+                "steps": 499973,
+                "file_path": "results\\shooter1.0.2\\OMG\\OMG-499973.onnx",
+                "reward": 4.479166666666667,
+                "creation_time": 1712775554.3651283,
+                "auxillary_file_paths": [
+                    "results\\shooter1.0.2\\OMG\\OMG-499973.pt"
+                ]
+            },
+            {
+                "steps": 500037,
+                "file_path": "results\\shooter1.0.2\\OMG\\OMG-500037.onnx",
+                "reward": 4.479166666666667,
+                "creation_time": 1712775554.3970473,
+                "auxillary_file_paths": [
+                    "results\\shooter1.0.2\\OMG\\OMG-500037.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500037,
+            "file_path": "results\\shooter1.0.2\\OMG.onnx",
+            "reward": 4.479166666666667,
+            "creation_time": 1712775554.3970473,
+            "auxillary_file_paths": [
+                "results\\shooter1.0.2\\OMG\\OMG-500037.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.2.2+cpu"
+    }
+}
