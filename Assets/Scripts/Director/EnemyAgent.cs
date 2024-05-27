@@ -222,11 +222,14 @@ public class EnemyAgent : FPSAgents
     }
     void OnDrawGizmos()
     {
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(centerPoint, patrolZoneRange);
+        Handles.color = Color.yellow;
+        Handles.DrawWireArc(centerPoint, Vector3.up, Vector3.forward, 360, patrolZoneRange);
 
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, attackRange);
+        //Gizmos.DrawWireSphere(transform.position, attackRange);
+
+        Handles.color = Color.blue;
+        Handles.DrawWireArc(transform.position, Vector3.up, Vector3.forward, 360, nextPointDistance);
 
         Handles.color = Color.white;
         Handles.DrawWireArc(transform.position, Vector3.up, Vector3.forward, 360, radius);

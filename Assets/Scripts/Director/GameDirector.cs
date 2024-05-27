@@ -40,7 +40,7 @@ public class GameDirector : MonoBehaviour
     }
     void Start()
     {
-        playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+        //playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
         StartCoroutine(SpawnEnemies());
     }
 

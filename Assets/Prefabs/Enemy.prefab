@@ -174,17 +174,19 @@ MonoBehaviour:
   moveSpeed: 0
   rb: {fileID: 0}
   state: 0
+  activated: 0
   agent: {fileID: 0}
-  patrolZoneRange: 5
+  patrolZoneRange: 4.7
   nextPointDistance: 0.2
   stopDuration: 2
   canPatrol: 1
   centerPoint: {x: 0, y: 0, z: 0}
+  isHit: 0
   attackRange: 2
   dmg: 10
   attackCooldown: 2
-  radius: 5
-  angle: 90
+  radius: 3.97
+  angle: 119
   playerRef: {fileID: 0}
   targetMask:
     serializedVersion: 2
