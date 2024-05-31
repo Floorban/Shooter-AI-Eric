@@ -36,6 +36,11 @@ public class Projectile : MonoBehaviour
             case "Enemy":
                 other.gameObject.GetComponent<FPSAgents>().ApplyDamage(dmg);
                 other.gameObject.GetComponent<EnemyAgent>().isHit = true;
+
+                /// If you want the enemy to chase the player after they get shot
+           /*     other.gameObject.GetComponent<EnemyAgent>().state = EnemyAgent.EnemyState.Follow;
+                other.gameObject.GetComponent<EnemyAgent>().playerRef = this.gameObject;*/
+
                 Destroy(gameObject);
                 break;
         }
