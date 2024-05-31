@@ -607,7 +607,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &705507994
 Light:
   m_ObjectHideFlags: 0
@@ -1062,7 +1062,7 @@ Transform:
   m_GameObject: {fileID: 1082944432}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0.5, z: -0.06}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1376,7 +1376,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: e9892b603df08284e91ae0520f6a36c3, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: b40b6a6ee8ecf5849ba5e1f13aaab04f, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &1690199928
 GameObject:
@@ -1423,22 +1423,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemies: []
-  maxNumberOfEnemies: 3
-  dmgInTotal: 0
-  dps: 0
-  playerSpeed: 0
-  onPlayerKilled: 0
+  maxNumberOfEnemies: 1
   enemyPrefab: {fileID: 9199921558347100642, guid: ff5e697c04aef884ca08fe98aa15e691, type: 3}
-  propsPrefab: {fileID: 9199921558347100642, guid: ff5e697c04aef884ca08fe98aa15e691, type: 3}
   spawnConstrains: 3
   notSpawnArea: {x: 3, y: 0, z: 3}
-  spawnRadius: 2
+  spawnRadius: 2.13
   spawnDelay: 3
   playerTransform: {fileID: 1082944433}
-  maxHealth: 0
-  g_DmgFactor: 0
-  speed: 0
-  chasingSpeed: 0
 --- !u!1 &1730084000
 GameObject:
   m_ObjectHideFlags: 0

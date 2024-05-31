@@ -71,11 +71,11 @@ public class EnemyAgent : FPSAgents
                 {
                     state = EnemyState.Follow;
                 }
-         /*       else if (canAttack)
+                else if (canAttack)
                 {
                     state = EnemyState.Attack;
                     attacking = false;
-                }*/
+                }
                 break;
             case EnemyState.Follow:
                 if (!canSeePlayer && !isHit)
@@ -83,11 +83,11 @@ public class EnemyAgent : FPSAgents
                     state = EnemyState.Patrol;
                     canPatrol = false;
                 }
-         /*       else if (canAttack && canSeePlayer)
+                else if (canAttack && canSeePlayer)
                 {
                     state = EnemyState.Attack;
                     attacking = false;
-                }*/
+                }
                 break;
             case EnemyState.Attack:
                 if (!canAttack && !canSeePlayer)
@@ -113,10 +113,10 @@ public class EnemyAgent : FPSAgents
                 if (playerRef != null)
                     ChaseTarget(playerRef.transform, 2f);
                 break;
-      /*      case EnemyState.Attack:
+            case EnemyState.Attack:
                 if (playerRef != null)
                     Attack();
-                break;*/
+                break;
         }
     }
     void Patrol()
@@ -226,7 +226,7 @@ public class EnemyAgent : FPSAgents
         Handles.DrawWireArc(centerPoint, Vector3.up, Vector3.forward, 360, patrolZoneRange);
 
         Gizmos.color = Color.red;
-        //Gizmos.DrawWireSphere(transform.position, attackRange);
+        Gizmos.DrawWireSphere(transform.position, attackRange);
 
         Handles.color = Color.blue;
         Handles.DrawWireArc(transform.position, Vector3.up, Vector3.forward, 360, nextPointDistance);
